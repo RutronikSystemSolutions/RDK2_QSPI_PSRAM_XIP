@@ -110,7 +110,7 @@ VFP_SELECT=
 #
 # NOTE: Includes and defines should use the INCLUDES and DEFINES variable
 # above.
-CFLAGS =-O0
+CFLAGS=
 
 # Additional / custom C++ compiler flags.
 #

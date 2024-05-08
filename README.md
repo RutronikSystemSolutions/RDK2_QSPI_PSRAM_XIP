@@ -4,11 +4,17 @@ Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "QSPI PSR
 
 This example demonstrates how to configure and use PSRAM APS6404L-3SQR-ZR  in XIP mode.
 
- <img src="images/rutdevkit_model.png" style="zoom:20%;" />
+<img src="images/rdk2_rev1.jpg" style="zoom:80%;" />
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) v3.0
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.0**]
+
+  **NOTE:** This code example will only be created successfully if you have a correct path to the memory configuration file APS6404L-3SQR-ZR.cymem set in qspi-configurator tool Settings->User Memory Folder. You may download the whole BSP from here: [TARGET_RDK2](https://github.com/RutronikSystemSolutions/TARGET_RDK2). The memory file resides in a config folder.
+
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Using the code example
 
